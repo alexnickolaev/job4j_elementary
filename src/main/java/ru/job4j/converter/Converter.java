@@ -38,11 +38,11 @@ public class Converter {
         output = Converter.euroToRuble(input);
         passed = expected == output;
         System.out.println("3 euros are 210 rubles. Test result : " + passed);
-        input = 5;
-        expected = 300;
+        input = 6;
+        expected = 360;
         output = Converter.dollarToRuble(input);
         passed = expected == output;
-        System.out.println("5 dollars are 300 rubles. Test result : " + passed);
+        System.out.println("6 dollars are 360 rubles. Test result : " + passed);
     }
 
 }
