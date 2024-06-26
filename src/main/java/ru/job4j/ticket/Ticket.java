@@ -2,14 +2,12 @@ package ru.job4j.ticket;
 
 public class Ticket {
 
-    // Constants for ticket prices
     private static final int FREE_TICKET = 0;
     private static final int SENIOR_TICKET_SUNDAY = 3;
     private static final int SENIOR_TICKET_OTHER = 5;
     private static final int REGULAR_TICKET_MONDAY = 8;
     private static final int REGULAR_TICKET_OTHER = 10;
 
-    // Constants for days of the week
     private static final String MONDAY = "MONDAY";
     private static final String SUNDAY = "SUNDAY";
 
