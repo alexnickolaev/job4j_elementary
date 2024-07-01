@@ -66,4 +66,13 @@ public class CounterTest {
         int expected = 36;
         assertThat(result).isEqualTo(expected);
     }
+
+    @Test
+    void whenSumEvenNumbersFromMinus4To6Then6() {
+        int start = -4;
+        int finish = 6;
+        int result = Counter.sumByEven(start, finish);
+        int expected = 6;
+        assertThat(result).isEqualTo(expected);
+    }
 }
