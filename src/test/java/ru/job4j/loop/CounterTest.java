@@ -39,4 +39,31 @@ public class CounterTest {
         int result = Counter.sum(0, 6);
         assertThat(result).isEqualTo(expected);
     }
+
+    @Test
+    void whenSumEvenNumbersFrom1To10Then30() {
+        int start = 1;
+        int finish = 10;
+        int result = Counter.sumByEven(start, finish);
+        int expected = 30;
+        assertThat(result).isEqualTo(expected);
+    }
+
+    @Test
+    void whenSumEvenNumbersFrom2To6Then12() {
+        int start = 2;
+        int finish = 6;
+        int result = Counter.sumByEven(start, finish);
+        int expected = 12;
+        assertThat(result).isEqualTo(expected);
+    }
+
+    @Test
+    void whenSumEvenNumbersFrom10To14Then36() {
+        int start = 10;
+        int finish = 14;
+        int result = Counter.sumByEven(start, finish);
+        int expected = 36;
+        assertThat(result).isEqualTo(expected);
+    }
 }
